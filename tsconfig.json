@@ -1,0 +1,27 @@
+diff --git a//dev/null b/tsconfig.json
+index 0000000000000000000000000000000000000000..0cfdb696b86fbec835c236f28705e45fb4c144f5 100644
+--- a//dev/null
++++ b/tsconfig.json
+@@ -0,0 +1,21 @@
++{
++  "compilerOptions": {
++    "target": "ESNext",
++    "useDefineForClassFields": true,
++    "lib": ["DOM", "DOM.Iterable", "ESNext"],
++    "allowJs": false,
++    "skipLibCheck": false,
++    "esModuleInterop": false,
++    "allowSyntheticDefaultImports": true,
++    "strict": true,
++    "forceConsistentCasingInFileNames": true,
++    "module": "ESNext",
++    "moduleResolution": "Node",
++    "resolveJsonModule": true,
++    "isolatedModules": true,
++    "noEmit": true,
++    "jsx": "react-jsx",
++    "types": ["vitest/globals"]
++  },
++  "include": ["src", "tests", "vite.config.ts"]
++}
+
