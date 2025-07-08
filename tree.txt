@@ -7,3 +7,6 @@ pnpm-workspace.yaml
 package.json
 vite.config.ts
 tsconfig.json
+src/
+  App.tsx
+  main.tsx
