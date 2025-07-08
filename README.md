@@ -1,6 +1,7 @@
 # 🛠️ PromptCrafter
 
 Turn any fuzzy idea into a production-ready prompt in one click.
+The UI is optimized for dark mode and mobile using Tailwind and shadcn/ui.
 
 ## Quick Start
 ```bash

@@ -7,9 +7,12 @@ pnpm-workspace.yaml
 package.json
 vite.config.ts
 tsconfig.json
+postcss.config.js
+tailwind.config.js
 src/
   App.tsx
   main.tsx
+  index.css
   components/
     ClarifyModal.tsx
     ConceptForm.tsx

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Input, Button } from 'shadcn-ui';
 
 /** Props for {@link ConceptForm}. */
 export interface ConceptFormProps {
@@ -19,20 +20,20 @@ export function ConceptForm({ onSubmit }: ConceptFormProps) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-2">
-      <input
+    <form onSubmit={handleSubmit} className="space-y-3 sm:max-w-md mx-auto">
+      <Input
         value={concept}
         onChange={(e) => setConcept(e.target.value)}
-        className="w-full border rounded p-2"
+        className="w-full bg-black/70 border border-white/20 rounded-lg px-3 py-2 text-white placeholder:text-white/50"
         placeholder="Describe your idea"
         aria-label="Concept"
       />
-      <button
+      <Button
         type="submit"
-        className="bg-black text-white px-4 py-2 rounded"
+        className="w-full bg-gradient-to-br from-indigo-500 to-purple-600 text-white py-2 rounded-lg shadow-lg transition-colors hover:from-indigo-400 hover:to-purple-500"
       >
         Craft
-      </button>
+      </Button>
     </form>
   );
 }
