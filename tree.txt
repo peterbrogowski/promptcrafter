@@ -10,3 +10,6 @@ tsconfig.json
 src/
   App.tsx
   main.tsx
+  components/
+    ClarifyModal.tsx
+    ConceptForm.tsx
