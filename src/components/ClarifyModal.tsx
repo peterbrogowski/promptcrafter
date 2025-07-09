@@ -1,8 +1,4 @@
-diff --git a//dev/null b/src/components/ClarifyModal.tsx
-index 0000000000000000000000000000000000000000..6b134e5859a36bc299b19aece97d82d33163d20b 100644
---- a//dev/null
-+++ b/src/components/ClarifyModal.tsx
-@@ -0,0 +1,53 @@
+
 +import React, { useState } from 'react';
 +
 +/** Props for {@link ClarifyModal}. */

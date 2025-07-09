@@ -1,8 +1,4 @@
-diff --git a//dev/null b/src/components/ConceptForm.tsx
-index 0000000000000000000000000000000000000000..7019f9401071556fbc53bd11bfbb602676db2c07 100644
---- a//dev/null
-+++ b/src/components/ConceptForm.tsx
-@@ -0,0 +1,38 @@
+
 +import React, { useState } from 'react';
 +
 +/** Props for {@link ConceptForm}. */
