@@ -1,24 +1,17 @@
----
+# PromptCrafter
 
-## 2️⃣ `README.md`
+PromptCrafter is a local-first, Vite-powered React app for building, testing, and refining generative AI prompts.
 
-```md
-# 🛠️ PromptCrafter
+### 📦 Stack
 
-Turn any fuzzy idea into a production-ready prompt in one click.
+- React 18
+- TypeScript
+- Vite
+- TailwindCSS
+- pnpm
 
-## Quick Start
+### 🚀 Getting Started
+
 ```bash
-pnpm i
-pnpm dev   # http://localhost:5173
-```
-
-Create a `.env.local` with `VITE_OPENAI_API_KEY` and `VITE_OPENAI_MODEL`.
-
-## Scripts
-- `pnpm dev` – start Vite dev server
-- `pnpm build` – production bundle
-- `pnpm test` – run unit tests
-
-## License
-MIT
+pnpm install
+pnpm dev --host
