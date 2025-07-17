@@ -1,19 +1,11 @@
-
 import React, { useState } from 'react';
 
-/** Props for {@link ClarifyModal}. */
 export interface ClarifyModalProps {
-  /** Whether the dialog is open. */
   open: boolean;
-  /** Clarifying questions to display. */
   questions: string[];
-  /** Called with the answers when submitted. */
   onSubmit: (answers: string[]) => void;
 }
 
-/**
- * Modal dialog that gathers answers for clarifying questions.
- */
 export function ClarifyModal({ open, questions, onSubmit }: ClarifyModalProps) {
   const [answers, setAnswers] = useState(() => questions.map(() => ''));
 
@@ -45,11 +37,10 @@ export function ClarifyModal({ open, questions, onSubmit }: ClarifyModalProps) {
         <button
           type="submit"
           className="bg-black text-white px-4 py-2 rounded"
-     >
-        Submit
-      </button>
-    </form>
-  </div>
-);
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  );
 }
-
