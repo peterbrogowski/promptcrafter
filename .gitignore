@@ -1,0 +1,9 @@
+# Ignore dependencies and build outputs
+node_modules/
+dist/
+.env.local
+pnpm-lock.yaml
+.vite/
+
+# macOS files
+.DS_Store
